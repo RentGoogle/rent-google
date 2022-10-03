@@ -113,20 +113,20 @@ border-radius: 25%;
 }
 .top-button {
 	display:inline-block;
-	border:1px solid rgba(255, 255, 255, 0);
-	color:#ffffff;
+	border:1px solid #fff;
+	color:#fff;
 	font-weight:600;
-	background: linear-gradient(180deg, #0088ea 0%, #f5e400 100%);
 	-webkit-border-radius:51px;
 	   -moz-border-radius:51px;
 	        border-radius:51px;
-	padding:10px 29px 11px;
+	padding:11px 35px 11px;
 	cursor:pointer;
 }
 .top-button:hover {
-	transform: scale(1.04);
-color: #fff;
-box-shadow: 0 5px 5px rgb(236, 216, 0, 0.4);
+	transform: scale(1.06);
+		background: #f1b602;
+		background-blend-mode: multiply;
+		box-shadow: 0 5px 5px rgba(241, 181, 2, 0.5)
 
 }
 
@@ -196,8 +196,8 @@ select {
 	padding:17px 16px 16px;
 	width: 100%;
 	border: none;
-	border-radius: 76px;
-	background: linear-gradient(180deg, #0088ea 0%, #f5e400 100%);
+	border-radius: 45px;
+	background: linear-gradient(180deg, #f1b602 0%, #ebc963 100%);
 	font-family:"Montserrat", sans-serif;
 	font-weight:500;
 	font-size:1.125em;
@@ -213,8 +213,9 @@ select {
 }
 .form-button:hover {
 	transform: scale(1.04);
-color: #fff;
-box-shadow: 0 5px 5px rgb(236, 216, 0, 0.4);
+	background: #e63d26;
+box-shadow: 0px 5px 5px rgba(230, 61, 38, 0.4);
+
 }
 .form-done {display: none;}
 
