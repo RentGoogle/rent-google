@@ -113,9 +113,10 @@ border-radius: 25%;
 }
 .top-button {
 	display:inline-block;
-	border:1px solid #fff;
-	color:#fff;
+	border:1px solid rgba(255, 255, 255, 0);
+	color:#ffffff;
 	font-weight:600;
+	background: linear-gradient(180deg, #0088ea 0%, #f5e400 100%);
 	-webkit-border-radius:51px;
 	   -moz-border-radius:51px;
 	        border-radius:51px;
@@ -125,7 +126,7 @@ border-radius: 25%;
 .top-button:hover {
 	transform: scale(1.04);
 color: #fff;
-box-shadow: 0 4px 4px rgb(255, 255, 255, 0.4);
+box-shadow: 0 5px 5px rgb(236, 216, 0, 0.4);
 
 }
 
@@ -191,12 +192,12 @@ select {
 }
 .form-button {
 	display: block;
-	margin-top:12px;
-	padding:21px 20px 20px;
+	margin-top:8px;
+	padding:17px 16px 16px;
 	width: 100%;
 	border: none;
-	border-radius: 136px;
-	background: linear-gradient(180deg, #f1b602 0%, #ebc963 100%);
+	border-radius: 76px;
+	background: linear-gradient(180deg, #0088ea 0%, #f5e400 100%);
 	font-family:"Montserrat", sans-serif;
 	font-weight:500;
 	font-size:1.125em;
@@ -211,9 +212,9 @@ select {
 	        appearance: none;
 }
 .form-button:hover {
-transform: scale(1.04);
+	transform: scale(1.04);
 color: #fff;
-box-shadow: 0 4px 4px rgba(255, 234, 5, 0.4);
+box-shadow: 0 5px 5px rgb(236, 216, 0, 0.4);
 }
 .form-done {display: none;}
 
