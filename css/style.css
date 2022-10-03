@@ -125,7 +125,7 @@ border-radius: 25%;
 .top-button:hover {
 	transform: scale(1.04);
 color: #fff;
-box-shadow: 0 4px 4px rgb(255, 255, 255, 0.5);
+box-shadow: 0 4px 4px rgb(255, 255, 255, 0.4);
 
 }
 
@@ -213,7 +213,7 @@ select {
 .form-button:hover {
 transform: scale(1.04);
 color: #fff;
-box-shadow: 0 4px 4px rgba(255, 234, 5, 0.5);
+box-shadow: 0 4px 4px rgba(255, 234, 5, 0.4);
 }
 .form-done {display: none;}
 
