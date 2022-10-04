@@ -44,6 +44,8 @@ input[type="text"], input[type="password"], textarea{
 	outline:none;
 	margin-bottom:12px;
 	padding:19px 24px 21px;
+
+
 }
 input[type="text"].error, input[type="email"].error, textarea.error {
 	border-color: #cc0000;
