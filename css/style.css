@@ -33,7 +33,7 @@ h2 {
 	padding-bottom:24px;
 	color: #000;
 }
-input[type="text"], input[type="tel"], textarea{
+input[type="text"], input[type="password"], textarea{
 	width:100%;
 	background:#fff;
 	border:1px solid #f1b602;
