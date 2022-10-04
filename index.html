@@ -61,8 +61,8 @@ fbq('track', 'PageView');
       <div class="form">
         <div class="container"></div>
         <form class="main-form form-fields" action="send.php" method="get"></form>
-          <h2 class="h2-bold">Заповніть поля</h2>
-          <div class="form-about"> і наш менеджер зв'яжеться з вами найближчим часом:</div>
+          <h2 class="h2-bold">Заповніть форму</h2>
+          <div class="form-about"> і наш менеджер зв'яжеться з вами впродовж години:</div>
 
 
           <div class="container mt-5 pt-5 pb-5">
@@ -138,7 +138,7 @@ fbq('track', 'PageView');
                 .then((res) => {
                   this.yesno.value = "";
                   this.yesno.value = "";
-                  success.innerHTML = 'Поля заповнені! ✅ Ми вам відповімо протягом дня! Очікуйте на повідомлення від менеджера! Працюємо з 09:00 до 23:00 ';
+                  success.innerHTML = 'Форма заповнена! ✅ Ми відповімо вам впродовж години! Очікуйте на повідомлення від менеджера! Працюємо з 09:00 до 23:00 ';
                   success.style.display = 'block';
                 })
                 .catch((err) => {
