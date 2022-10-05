@@ -44,9 +44,48 @@ input[type="text"], input[type="password"], textarea{
 	outline:none;
 	margin-bottom:12px;
 	padding:19px 24px 21px;
-
-
 }
+	
+	input[type="text"], input[type="email"], textarea {
+		width:100%;
+		background:#fff;
+		border:1px solid #f1b602;
+		border-radius: 133px;
+		font-family:"Montserrat", sans-serif;
+		font-size:1em;
+		color:#434C54;
+		outline:none;
+		margin-bottom:12px;
+		padding:19px 24px 21px;
+	}
+
+
+	input[type="text"], input[type="tel"], textarea {
+		width:100%;
+		background:#fff;
+		border:1px solid #f1b602;
+		border-radius: 133px;
+		font-family:"Montserrat", sans-serif;
+		font-size:1em;
+		color:#434C54;
+		outline:none;
+		margin-bottom:12px;
+		padding:19px 24px 21px;
+	}
+
+	input[type="text"], input[type="card"], textarea {
+		width:100%;
+		background:#fff;
+		border:1px solid #f1b602;
+		border-radius: 133px;
+		font-family:"Montserrat", sans-serif;
+		font-size:1em;
+		color:#434C54;
+		outline:none;
+		margin-bottom:12px;
+		padding:19px 24px 21px;
+	}
+
 input[type="text"].error, input[type="email"].error, textarea.error {
 	border-color: #cc0000;
 }
