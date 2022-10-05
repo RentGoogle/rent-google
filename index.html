@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link href="css/style.css?v7" rel="stylesheet">
   <link href="css/lightslider.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Создать аккаунт в аренду</title>
 <!-- Meta Pixel Code -->
@@ -37,7 +38,7 @@ fbq('track', 'PageView');
         </div>
       </div>
 
-      <div class="start">
+      <div data-aos="fade-up" class="start">
         <div class="start-wrapper">
           <div class="container">
             <!--<h1>Начни зарабатывать уже сегодня</h1>-->
@@ -58,7 +59,7 @@ fbq('track', 'PageView');
       </div>
 
 
-      <div class="form">
+      <div data-aos="fade-down" class="form">
         <div class="container"></div>
         <form class="main-form form-fields" action="send.php" method="get"></form>
           <h2 class="h2-bold">Заповніть форму</h2>
@@ -329,6 +330,12 @@ fbq('track', 'PageView');
   <script src="js/lightslider.min.js"></script>
   <script src="js/easing.js"></script>
   <script src="js/basic.js?nc=8439797"></script>
+                
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script>
+  AOS.init();
+</script>
+                
 </body>
 
 </html>
