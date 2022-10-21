@@ -37,26 +37,26 @@ input[type="text"], input[type="password"], textarea{
 	width:100%;
 	background:#fff;
 	border:1px solid #f1b602;
-	border-radius: 20px;
+	border-radius: 15px;
 	font-family:"Montserrat", sans-serif;
 	font-size:1em;
 	color:#434C54;
 	outline:none;
 	margin-bottom:12px;
-	padding:10px 10px 10px;
+	padding:11px 11px 11px;
 }
 	
 	input[type="text"], input[type="email"], textarea {
 		width:100%;
 		background:#fff;
 		border:1px solid #f1b602;
-		border-radius: 20px;
+		border-radius: 15px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#434C54;
 		outline:none;
 		margin-bottom:12px;
-		padding:10px 10px 10px;
+		padding:11px 11px 11px;
 	}
 
 
@@ -64,13 +64,13 @@ input[type="text"], input[type="password"], textarea{
 		width:100%;
 		background:#fff;
 		border:1px solid #f1b602;
-		border-radius: 20px;
+		border-radius: 15px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#434C54;
 		outline:none;
 		margin-bottom:12px;
-		padding:10px 10px 10px;
+		padding:11px 11px 11px;
 	}
 
 	input[type="text"], input[type="card"], textarea {
@@ -83,7 +83,7 @@ input[type="text"], input[type="password"], textarea{
 		color:#434C54;
 		outline:none;
 		margin-bottom:12px;
-		padding:10px 10px 10px;
+		padding:11px 11px 11px;
 	}
 
 input[type="text"].error, input[type="email"].error, textarea.error {
@@ -157,10 +157,10 @@ border-radius: 25%;
 	border:1px solid #fff;
 	color:#fff;
 	font-weight:600;
-	-webkit-border-radius:20px;
-	   -moz-border-radius:20px;
-	        border-radius:20px;
-					padding:10px 10px 10px;
+	-webkit-border-radius:15px;
+	   -moz-border-radius:15px;
+	        border-radius:15px;
+					padding:11px 11px 11px;
 	cursor:pointer;
 }
 .top-button:hover {
@@ -215,7 +215,7 @@ border-radius: 25%;
 }
 select {
 	border: 1px solid #f1b602;
-	border-radius: 20px;
+	border-radius: 15px;
 	width:100%;
 	color:#000;
 	padding-top:20px;
@@ -238,7 +238,7 @@ select {
 	padding:10px 10px 10px;
 	width: 80%;
 	border: none;
-	border-radius: 20px;
+	border-radius: 15px;
 	background: linear-gradient(180deg, #f1b602 0%, #ebc963 100%);
 	font-family:"Montserrat", sans-serif;
 	font-weight:500;
@@ -273,7 +273,7 @@ box-shadow: 0px 5px 5px rgba(230, 61, 38, 0.4);
 	width:100px;
 	height:100px;
 	-webkit-border-radius:50%;
-	   -moz-border-radius:50%;
+	   -moz-:50%;
 	        border-radius:50%;
 	border:5px solid #FFE8CC;
 }
@@ -286,7 +286,7 @@ box-shadow: 0px 5px 5px rgba(230, 61, 38, 0.4);
 .reasons-icon div {
 	width:90px;
 	height:90px;
-	-webkit-border-radius:50%;
+	-webkit-:50%;
 	   -moz-border-radius:50%;
 	        border-radius:50%;
 	background-repeat:no-repeat;
@@ -474,12 +474,12 @@ box-shadow: 0px 5px 5px rgba(230, 61, 38, 0.4);
 	height:350px;
 	background: url(../img/bgopinion.svg) no-repeat;
     background-size: contain;
-	-webkit-border-radius:10px;
-	   -moz-border-radius:10px;
-	        border-radius:10px;
+	-webkit-border-radius:15px;
+	   -moz-border-radius:15px;
+	        border-radius:15px;
 	font-size:0.875em;
 	text-align:center;
-	padding:10px 10px 10px;
+	padding:15px 15px 15px;
 	margin: 0;
 }
 .opinions-block-photo {
