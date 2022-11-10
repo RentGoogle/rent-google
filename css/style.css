@@ -181,8 +181,8 @@ border-radius: 25%;
 
 .start-wrapper {
 	padding:15px 0;
-	padding-bottom: 100%;
-	background-image: url(../img/bgpic.svg);
+	padding-bottom: 36%;
+
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: contain;
@@ -198,7 +198,14 @@ border-radius: 25%;
 	font-size:1.375em;
 	font-weight: bold;
   padding-bottom: 20px;
-	color: #fff;
+	color: rgb(255, 255, 255);
+	text-center
+	display: block;
+	margin-top:11px;
+	padding:10px 10px 10px;
+	width: 105%;
+	border: none;
+	
 }
 .start-about strong {font-weight:700; color:#fff;}
 
@@ -239,7 +246,7 @@ select {
 	width: 80%;
 	border: none;
 	border-radius: 15px;
-	background: linear-gradient(180deg, #f1b602 0%, #ebc963 100%);
+	background: #0278ff;
 	font-family:"Montserrat", sans-serif;
 	font-weight:500;
 	font-size:1.125em;
@@ -252,13 +259,21 @@ select {
 	-webkit-appearance: none;
 	   -moz-appearance: none;
 	        appearance: none;
+			
 }
 .form-button:hover {
 	transform: scale(1.04);
 	background: #e63d26;
-box-shadow: 0px 5px 5px rgba(230, 61, 38, 0.4);
+	box-shadow: 0px 3px 3px rgba(230, 61, 38, 0.4);
+	
 
-}
+
+} 
+background: linear-gradient(180deg, #ebc963 50%, #0278ff 50%);
+background: linear-gradient(180deg, #0278ff 50%, #ebc963 50%);
+#dd1010 50%, #000000 50%
+#0278ff 50%, #ebc963
+#0278ff 50%, #ebc963 50%
 .form-done {display: none;}
 
 .reasons {
