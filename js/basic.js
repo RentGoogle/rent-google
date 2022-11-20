@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	/* navigation */
 
 	$(".top-button, .top-bars, .step-1 strong").click(function() {
-		$("body, html").animate({scrollTop:$(".form").offset().top - $(".top").outerHeight() + 40}, 1300, "easeInOutExpo");
+		$("body, html").animate({scrollTop:$(".form").offset().top - $(".top").outerHeight() + 700}, 1300, "easeInOutExpo");
 	});
 	
 	$("#m1").click(function() {
