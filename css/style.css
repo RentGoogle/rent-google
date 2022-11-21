@@ -113,7 +113,7 @@ input[type="text"].error, input[type="email"].error, textarea.error {
 	width:100%;
 	/* background:#E74210; */
 	/* background: #2183ff; */
-	background: linear-gradient(176deg, #2da34ec9 0, #2da34ec9 102.91%);
+	background: linear-gradient(176deg, #2da34ec9 0, #2da34eda 102.91%);
 	padding:12px 0;
 	z-index:100;
 }
