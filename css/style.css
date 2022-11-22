@@ -327,7 +327,7 @@ background: linear-gradient(180deg, #0278ff 50%, #ebc963 50%);
 	padding:24px 0;
 }
 
-.why {padding:40px 0;padding-top: 0;}
+.why {padding:40px 15px;padding-top: 5px;}
 .why img {
 	width:100%;
 }
