@@ -557,7 +557,7 @@ background: linear-gradient(180deg, #0278ff 50%, #ebc963 50%);
 	color:#8393AE;
 	padding:40px 0;
 }
-.footer-menu div {padding-bottom:10px;}
+.footer-menu div {padding-bottom:4px;}
 .footer-menu a {
 	font-size:1.125em;
 	color:#E3E9F4;
