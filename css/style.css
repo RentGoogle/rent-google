@@ -36,7 +36,7 @@ h2 {
 input[type="text"], input[type="password"], textarea{
 	width:100%;
 	background:#fff;
-	border:1.7px solid #000000da;
+	border:1.4px solid #000000da;
 	border-radius: 15px;
 	font-family:"Montserrat", sans-serif;
 	font-size:1em;
@@ -49,7 +49,7 @@ input[type="text"], input[type="password"], textarea{
 	input[type="text"], input[type="email"], textarea {
 		width:100%;
 		background:#fff;
-		border:1.7px solid #000000da;
+		border:1.4px solid #000000da;
 		border-radius: 15px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
@@ -63,7 +63,7 @@ input[type="text"], input[type="password"], textarea{
 	input[type="text"], input[type="tel"], textarea {
 		width:100%;
 		background:#fff;
-		border:1.7px solid #000000da;
+		border:1.4px solid #000000da;
 		border-radius: 15px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
@@ -76,7 +76,7 @@ input[type="text"], input[type="password"], textarea{
 	input[type="text"], input[type="card"], textarea {
 		width:100%;
 		background:#fff;
-		border:1.7px solid #000000da;;
+		border:1.4px solid #000000da;;
 		border-radius: 15px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
