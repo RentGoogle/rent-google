@@ -155,7 +155,7 @@ border-radius: 25%;
 .top-button {
 	display:inline-block;
 	border:1px solid #FFF8E1;
-	color:#FFF8E1;
+	color:#000000;
 	font-weight:600;
 	-webkit-border-radius:15px;
 	   -moz-border-radius:15px;
