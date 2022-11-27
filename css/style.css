@@ -164,8 +164,9 @@ border-radius: 25%;
 	cursor:pointer;
 }
 .top-button:hover {
-	transform: scale(1.06);
-		background: #141203;
+	transform: scale(1.02);
+		background: #14b4eee7;
+
 		background-blend-mode: multiply;
 	
 
@@ -246,7 +247,7 @@ select {
 	width: 90%;
 	border: none;
 	border-radius: 15px;
-	background: #0278ff;
+	background: #0278fff0;
 	font-family:"Montserrat", sans-serif;
 	font-weight:500;
 	font-size:1.125em;
@@ -257,14 +258,15 @@ select {
 	cursor:pointer;
 	outline: none;
 	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
+	-moz-appearance: none;
+    appearance: none;
 			
 }
+
 .form-button:hover {
-	transform: scale(1.04);
-	background: #e63d26;
-	box-shadow: 0px 3px 3px rgba(230, 61, 38, 0.4);
+	transform: scale(1.02);
+	background: #fb3e25e9;
+
 	
 }
 
@@ -552,7 +554,7 @@ background: linear-gradient(180deg, #0278ff 50%, #ebc963 50%);
 
 .footer {
 
-	background: linear-gradient(134.97deg, #FDE694 -30.6%, #FFF8E1 69.99%);
+	background: linear-gradient(134.97deg, #FDE694 -30.6%, #FFF8E1 74.99%);
 	font-size:0.850em;
 	color:#8393AE;
 	padding:40px 0;
