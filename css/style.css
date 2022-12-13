@@ -127,7 +127,7 @@ input[type="text"].error, input[type="email"].error, input[type="password"].erro
 	width:100%;
 	/* background:#E74210; */
 	/* background: #2183ff; */
-	background: linear-gradient(156deg,  #1e9effc6 0%, #03bcffd4 102.91%);
+	background: linear-gradient(156deg,  #1e9efff0 0%, #03bcfff3 102.91%);
 	padding:12px 0;
 	z-index:100;
 }
