@@ -72,7 +72,9 @@ input[type="text"], input[type="password"], textarea{
 		padding:11px 11px 11px;
 	}
 
-
+.center-img {
+  text-align: center;
+}
 
 	input[type="text"], input[type="tel"], textarea {
 		width:100%;
