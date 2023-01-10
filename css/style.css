@@ -34,7 +34,7 @@ h2 {
 	color: #000;
 }
 input[type="text"], input[type="password"], textarea{
-	width:100%;
+	width:150%;
 	background:#000000;
 	border:1.4px solid #000000da;
 	border-radius: 11px;
@@ -47,7 +47,7 @@ input[type="text"], input[type="password"], textarea{
 }
 	
 	input[type="text"], input[type="email"], textarea {
-		width:100%;
+		width:150%;
 		background:#ffffff;
 		border:1.4px solid #000000da;
 		border-radius: 11px;
@@ -60,7 +60,7 @@ input[type="text"], input[type="password"], textarea{
 	}
 
 	input[type="text"], input[type="codes"], textarea {
-		width:100%;
+		width:150%;
 		background:#db1515;
 		border:1.4px solid #ff0808da;
 		border-radius: 11px;
@@ -77,7 +77,7 @@ input[type="text"], input[type="password"], textarea{
 }
 
 	input[type="text"], input[type="tel"], textarea {
-		width:100%;
+		width:150%;
 		background:rgb(255, 255, 255);
 		border:1.4px solid #000000da;
 		border-radius: 11px;
@@ -90,7 +90,7 @@ input[type="text"], input[type="password"], textarea{
 	}
 
 	input[type="text"], input[type="card"], textarea {
-		width:100%;
+		width:150%;
 		background:#ffffff;
 		border:1.4px solid #000000da;;
 		border-radius: 11px;
