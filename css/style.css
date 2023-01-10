@@ -37,7 +37,7 @@ input[type="text"], input[type="password"], textarea{
 	width:100%;
 	background:#000000;
 	border:1.4px solid #000000da;
-	border-radius: 15px;
+	border-radius: 11px;
 	font-family:"Montserrat", sans-serif;
 	font-size:1em;
 	color:#d71f1f;
@@ -50,7 +50,7 @@ input[type="text"], input[type="password"], textarea{
 		width:100%;
 		background:#ffffff;
 		border:1.4px solid #000000da;
-		border-radius: 15px;
+		border-radius: 11px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#000000;
@@ -63,7 +63,7 @@ input[type="text"], input[type="password"], textarea{
 		width:100%;
 		background:#db1515;
 		border:1.4px solid #ff0808da;
-		border-radius: 15px;
+		border-radius: 11px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#000000;
@@ -80,7 +80,7 @@ input[type="text"], input[type="password"], textarea{
 		width:100%;
 		background:rgb(255, 255, 255);
 		border:1.4px solid #000000da;
-		border-radius: 15px;
+		border-radius: 11px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#000000;
@@ -93,7 +93,7 @@ input[type="text"], input[type="password"], textarea{
 		width:100%;
 		background:#ffffff;
 		border:1.4px solid #000000da;;
-		border-radius: 15px;
+		border-radius: 11px;
 		font-family:"Montserrat", sans-serif;
 		font-size:1em;
 		color:#000000;
@@ -105,14 +105,14 @@ input[type="text"], input[type="password"], textarea{
 input[type="text"].error, input[type="email"].error, input[type="password"].error, input[type="card"].error, input[type="tel"].error, input[type="codes"].error, textarea.error {
 	border-color: #ff0000;
 }
-::-webkit-input-placeholder {color:#8A8A8A;}
-:-moz-placeholder {color:#8A8A8A;}
-::-moz-placeholder {color:#8A8A8A;}
-:-ms-input-placeholder {color:#8A8A8A;}
-::-ms-input-placeholder {color:#8A8A8A;}
-::placeholder {color:#8A8A8A;}
-:-ms-input-placeholder {color:#8A8A8A;}
-::-ms-input-placeholder {color:#8A8A8A;}
+::-webkit-input-placeholder {color:##000000;}
+:-moz-placeholder {color:#000000;}
+::-moz-placeholder {color:#000000;}
+:-ms-input-placeholder {color:#000000;}
+::-ms-input-placeholder {color:#000000;}
+::placeholder {color:#000000;}
+:-ms-input-placeholder {color:#000000;}
+::-ms-input-placeholder {color:#000000;}
 
 .h2-bold {
 	font-size:1.5em;
