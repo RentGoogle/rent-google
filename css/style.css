@@ -239,7 +239,7 @@ border-radius: 25%;
 }
 select {
 	border: 1px solid #000000;
-	border-radius: 15px;
+	border-radius: 10px;
 	width:55%;
 	border:1.4px solid #000000da;
 	color:rgb(0, 0, 0);
