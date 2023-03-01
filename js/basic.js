@@ -7,7 +7,7 @@ $( document ).ready(function() {
 	});
 	
 	$("#m1").click(function() {
-		$("body, html").animate({scrollTop:$(".reasons").offset().top - $(".top").outerHeight() + 1300}, 1300, "easeInOutExpo");
+		$("body, html").animate({scrollTop:$(".reasons").offset().top - $(".top").outerHeight() + 1800}, 1300, "easeInOutExpo");
 	});
 	$("#m2").click(function() {
 		$("body, html").animate({scrollTop:$(".steps").offset().top - $(".top").outerHeight() + 1}, 1300, "easeInOutExpo");
