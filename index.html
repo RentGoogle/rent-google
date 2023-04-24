@@ -46,6 +46,50 @@ fbq('track', 'PageView');
 
 
 
+
+
+
+
+
+<html>
+<head>
+  <title>Слайдшоу</title>
+  <style>
+    .slideshow {
+      max-width: 500px;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+    }
+    .slideshow img {
+      width: 100%;
+      height: auto;
+      display: none;
+    }
+    .slideshow img.active {
+      display: block;
+    }
+    .slideshow a {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      text-decoration: none;
+      color: #000;
+      border-radius: 5px;
+    }
+    .slideshow a.prev {
+      left: 0;
+    }
+    .slideshow a.next {
+      right: 0;
+    }
+  </style>
+</head>
+<body>
 <div class="slideshow">
   <img class="active" src="img/sportbank4.jpg" alt="Фото 1">
  <a href="https://sportbank.ua/r/?ref=aPHDhK8K"> <img src="img/sportbank5.jpg" alt="Фото 2"></a>
@@ -54,8 +98,44 @@ fbq('track', 'PageView');
   <a class="next" href="#">&gt;</a>
 </div>
 
+  <script>
+    var slideIndex = 0;
+    var slides = document.getElementsByTagName("img");
+    var prevButton = document.querySelector(".prev");
+    var nextButton = document.querySelector(".next");
 
+    showSlides();
 
+    function showSlides() {
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 5000);
+    }
+
+    prevButton.addEventListener("click", function() {
+      slideIndex--;
+      if (slideIndex < 1) {
+        slideIndex = slides.length;
+      }
+      showSlides();
+    });
+
+    nextButton.addEventListener("click", function() {
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      showSlides();
+    });
+  </script>
+</body>
+</html>
 
 
     <div>
